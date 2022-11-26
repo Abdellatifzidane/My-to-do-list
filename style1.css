@@ -1,0 +1,103 @@
+body{
+    background-image: url('todo-bg.png');
+}
+main{
+    background-color:white;
+    width: 600px;
+    height: fit-content ; 
+    margin : 80px auto;
+    padding-bottom: 50px ; 
+}
+main p {
+    margin-left: 60.875px;
+    font-size: 110%;
+    margin-top: 0px;
+}
+h1{
+    padding-top: 100px;
+    margin: 0px;
+    text-align: center;
+    background-image: url(todo.png);
+    background-repeat: no-repeat;
+    background-position: center ;
+    text-indent: 100%;
+    color: transparent;
+}
+#counter{
+    color: white;
+    background-color: red;
+    width: fit-content;
+    padding: 3px;
+    border-radius: 5px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+#addtxt{
+    background-color:lightblue ;
+    width: fit-content;
+    margin: 0px auto;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(19, 133, 171);
+}
+#submit{
+    height: 35px;
+    width : 80px; 
+    background-image: url(add.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 18px;
+    margin-left: 10px;
+    background-color: white;
+    border-width: 1px;
+    border-style: inset; 
+    border-radius: 2px;
+    border-color: rgb(16, 111, 211);
+    background-position: 5px 7px;
+}
+#text{
+    height: 30px;
+    width: 350px;
+    padding-left: 5px;
+    outline: none;
+}
+#modify{
+    width: fit-content;
+    margin-left:360px ;
+}
+#modify #save{
+    margin-left: 10px;
+    padding: 5px 10px;
+}
+#modify #reset{
+    padding: 5px 10px;
+}
+ul{
+    margin-right: 60px;
+    margin-left:62.875px;
+    padding: 0px ; 
+    list-style: none ;
+    border-bottom-style: solid;
+    border-color: rgb(19, 133, 171);
+    padding-bottom: 20px;
+}
+li{
+    border-style: none;
+    border-top-style: groove;
+    border-width: 1px;
+    padding: 5px;
+    background-color:rgb(255, 229, 229)
+}
+button{
+    float: right;
+    width: 20px;
+    height: 20px;
+    border-style: none;
+    background-image: url('delete.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:transparent;
+}
+
